@@ -1,0 +1,126 @@
+section {
+    color: white;
+}
+
+body {
+    background: url(boyfishing.jpg) fixed; 
+     -webkit-background-size: cover;
+        -moz-background-size: cover;
+          -o-background-size: cover;
+             background-size: cover;
+    
+}
+
+.navbar {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 150%;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Bangers', cursive;
+    font-size: 150%;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+}
+
+.home {
+    padding: 10% 0 0 2%;
+    width: 100%;
+    height: 100vh;
+}
+.home h1 {
+    width: 100%;
+    color: white;
+    font-family: 'Bangers', cursive;
+    font-size: 800%;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+}
+
+.home h2 {
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    font-size: 400%%;
+}
+
+.about {
+    text-align: right;
+    margin-left: 50%;
+    width: 50%;
+    font-family: 'Rubik', sans-serif;
+    padding: 2%;
+    height: 100vh;
+}
+
+.about h3 {
+    font-size: 300%;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.about p {
+    font-size: 150%;
+}
+
+.products {
+    text-align: center;
+}
+
+.products h3 {
+    font-family: 'Bangers', cursive;
+    font-size: 400%;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+    padding: 2%;
+    text-align: left;
+}
+
+.products h4 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 150%;
+    padding: 2% 2% 5% 2%;
+    width: 50%;
+}
+
+.products .gallery p {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 300%;
+    text-align: center; 
+    height: 50vh;
+}
+
+.products .gallery img {
+    padding: 8% 0 10% 0;
+}
+
+
+.container h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 500%;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+    text-align: right;
+}
+
+.container div label {
+    font-size: 125%;
+}
+
+footer .container p {
+    display: inline-block;
+    color: white;
+    font-size: 95%;
+}
+
+ footer .container .float {
+    float: right;
+     font-size: 85%
+}
+@media only screen and (max-width: 540px) {
+    .home h1 { font-size: 400%; text-align: center; margin-top: 25vh; }
+    .home h2 { font-size: 200%; text-align: center; }
+    .about { width: 100%; margin: auto;}
+    .about h3 { font-size: 200%; }
+    .about p { font-size: 100%; text-align: center; }
+    .products { text-align: center; }
+    .products h3 { text-align: center; }
+    .products h4 { width: 100%; text-align: center; }
+    .container h1 { font-size: 250%; text-align: center; }
+    .container div label { font-size: 100%; }
+}
+
